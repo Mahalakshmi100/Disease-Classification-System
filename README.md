@@ -117,17 +117,20 @@ python app.py
 
 ## Model Overview
 **Dataset:** Symptom-Disease dataset containing multiple symptom columns and one target (Disease).
+
 **Flask:** Trained using Logistic Regression with Label Encoding.
+
 **FastAPI:** Trained using Random Forest with OneHotEncoding.
+
 **Storage:** Trained models saved using pickle for reuse in APIs.
 
 ---
 
 ## Features
--Accepts multiple symptoms from the user.
--Predicts the disease instantly.
--User-friendly and clean UI using HTML templates.
--Two API versions: Flask (simple) and FastAPI (modern & scalable).
+- Accepts multiple symptoms from the user.
+- Predicts the disease instantly.
+- User-friendly and clean UI using HTML templates.
+- Two API versions: Flask (simple) and FastAPI (modern & scalable).
 
 ---
 
@@ -157,18 +160,22 @@ Symptom_2: Fatigue
 ---
 
 ## Future Scope
--Add confidence score or percentage with each prediction.
--Suggest treatments or nearby doctors based on the prediction.
--Create user login to track patient history.
--Deploy as a full-stack web or mobile application.
+- Add confidence score or percentage with each prediction.
+- Suggest treatments or nearby doctors based on the prediction.
+- Create user login to track patient history.
+- Deploy as a full-stack web or mobile application.
 
 ---
  
 ## Acknowledgements
 **Scikit-learn**
+
 **Flask Documentation**
+
 **FastAPI Documentation**
+
 **Kaggle for dataset inspiration**
+
 **Open-source community and Stack Overflow**
 
 ---
